@@ -1,71 +1,48 @@
-# 🚀 Ultimate Docker Full Course – Zero to Pro  
-### *By Shubham Gour (@theshubhamgour)*  
+ À propos de ce dépôt
+Ce dépôt contient toutes les ressources, code, configurations, commandes et implémentations utilisées dans la vidéo Docker in One Shot Full Course.
 
----
-<img width="1672" height="941" alt="ChatGPT Image Apr 29, 2026, 01_23_13 PM" src="https://github.com/user-attachments/assets/4dceb0e6-32da-4716-aaea-3cf95c6d560f" />"
+Si vous apprenez DevOps, Containers ou Docker à partir de zéro — ce dépôt est votre kit de référence complet.
 
-🎥 **YouTube Full Course (12+ Hours):** [Docker Video Link](https://www.youtube.com/watch?v=rhD12yd5VyI)  
-🌐 **GitHub Repo:** [docker-tutorial](https://github.com/theshubhamgour/docker-tutorial)
+🔥 Ce que ce cours couvre (A–Z)
+Ce cours vous fait passer d’un débutant absolu → expert Docker prêt pour la production.
 
----
+🟦 1. Fondamentaux et configuration de Docker
+Qu’est-ce que Docker ? Conteneurs vs Machines Virtuelles
+Architecture Docker (Moteur, Démon, Client, Registre)
+Installation : Configuration de Docker sous Linux, Mac et Windows
+Informations Docker et état du système : Comprendre votre environnement Docker
+🟩 2. CLI Docker & Commandes de base
+Aperçu de la commande : Gestion du cycle de vie des images et des conteneurs
+Exécution, arrêt et retrait des conteneurs
+Politiques de redémarrage : Toujours, en cas d’échec, sauf si c’est arrêté
+Docker Commit : Création d’images personnalisées à partir de conteneurs en cours d’exécution
+🟨 3. Stockage Docker et persistance des données
+Pourquoi avons-nous besoin d’un stockage persistant dans des conteneurs ?
+Docker Volumes : création, montage et gestion des volumes
+Montures de liaison vs Volumes
+Partage sécurisé des données entre conteneurs
+🟧 4. Plongée approfondie sur le réseau Docker
+Comprendre la communication des conteneurs
+Réseau pont : réseau par défaut, réseaux ponts personnalisés pour la résolution DNS
+Réseau hôte : suppression de l’isolation réseau pour des performances maximales
+Aucun réseau : Isolation complète du conteneur pour la sécurité
+🟥 5. Conteneurisation des applications (dockerfile)
+Bases de Dockerfile : Rédiger votre premier Dockerfile étape par étape
+CMD vs ENTRYPOINT : différences détaillées, bonnes pratiques et cas d’utilisation
+Contexte de construction et optimisation : utilisation pour des constructions plus petites et plus rapides.dockerignore
+Dockerfile Masterclass : variables d’environnement, couches de mise en cache et pratiques de sécurité
+🟪 6. Création d’images avancée (Multi-étages)
+Multi-étapes Dockerfiles : Création d’images de production ultra-légères
+Compilation du code à une étape, exécution à une autre (Go, Java, Node, Python, React incluant !)
+Réduction drastique des vulnérabilités d’image et de la taille globale
+🟫 7. Docker Compose (applications multi-conteneurs)
+Bases de YAML : Comprendre la syntaxe, les listes et les dictionnaires YAML pour la configuration
+Docker Compose : Exécuter des applications multi-couches sans effort
+Définition des services, réseaux et volumes dans docker-compose.yml
+Mise à l’échelle des services et gestion de cycles de vie d’applications entiers avec une seule commande
+📂 Structure du dépôt
+Voici un aperçu complet de tous les modules inclus dans ce tutoriel :
 
-# 📘 About This Repository  
-This repository contains **all resources, code, configurations, commands, and implementations** used in the *Docker in One Shot Full Course* video.
-
-If you're learning DevOps, Containers, or Docker from scratch — this repo is your **complete reference kit**.
-
----
-
-# 🔥 What This Course Covers (A–Z)  
-This course takes you from absolute beginner → production-ready Docker expert.
-
-## 🟦 1. Docker Fundamentals & Setup
-- What is Docker? Containers vs Virtual Machines
-- Docker Architecture (Engine, Daemon, Client, Registry)
-- **Installation**: Setting up Docker on Linux, Mac, & Windows
-- **Docker Info & System State**: Understanding your Docker environment
-
-## 🟩 2. Docker CLI & Core Commands
-- **Command Overview**: Image and container lifecycle management
-- Running, stopping, and removing containers
-- **Restart Policies**: Always, On-Failure, Unless-Stopped
-- **Docker Commit**: Creating custom images from running containers
-
-## 🟨 3. Docker Storage & Data Persistence
-- Why do we need persistent storage in containers?
-- **Docker Volumes**: Creating, mounting, and managing volumes
-- Bind Mounts vs Volumes
-- Sharing data securely between containers
-
-## 🟧 4. Docker Networking Deep Dive
-- Understanding container communication
-- **Bridge Network**: Default networking, custom bridge networks for DNS resolution
-- **Host Network**: Removing network isolation for maximum performance
-- **None Network**: Complete container isolation for security
-
-## 🟥 5. Containerizing Applications (Dockerfile)
-- **Dockerfile Basics**: Writing your first Dockerfile step-by-step
-- **CMD vs ENTRYPOINT**: Detailed differences, best practices, and use cases
-- **Build Context & Optimization**: Using `.dockerignore` for smaller, faster builds
-- **Dockerfile Masterclass**: Environment variables, caching layers, and security practices
-
-## 🟪 6. Advanced Image Building (Multistage)
-- **Multistage Dockerfiles**: Building ultra-lightweight production images
-- Compiling code in one stage, running in another (Go, Java, Node, Python, React examples included!)
-- Drastically reducing image vulnerabilities and overall size
-
-## 🟫 7. Docker Compose (Multi-Container Apps)
-- **YAML Basics**: Understanding YAML syntax, lists, and dictionaries for configuration
-- **Docker Compose**: Running multi-tier applications effortlessly
-- Defining services, networks, and volumes in `docker-compose.yml`
-- Scaling services and managing entire application lifecycles with a single command
-
----
-
-# 📂 Repository Structure  
-Here is a complete breakdown of all the modules included in this tutorial:
-
-```
 docker-tutorial/
 ├── 1-docker-installation/
 ├── 2-docker-info/
@@ -84,25 +61,5 @@ docker-tutorial/
 ├── 15-docker-compose/
 ├── 16-multistage-dockerfile/
 └── README.md
-```
-
----
-
-# 🙌 Contribute  
-If you want to add new examples, optimizations, or resources, feel free to fork the repository and create a Pull Request (PR)!
-
----
-
-# ⭐ Support  
-If this repo helped you understand Docker better, please ⭐ **star the GitHub repo** & share the video with others!
-
----
-
-# 🔗 Follow Me  
-**LinkedIn:** [https://www.linkedin.com/in/theshubhamgour](https://www.linkedin.com/in/theshubhamgour)  
-**Instagram:** [https://instagram.com/theshubhamgour](https://instagram.com/theshubhamgour)  
-**Twitter/X:** [https://twitter.com/theshubhamgour](https://twitter.com/theshubhamgour)  
-
----
-
-# 🔥 Let’s Master DevOps Together!
+🙌 Contribuer
+Si vous souhaitez ajouter de nouveaux exemples, optimisations ou ressources, n’hésitez pas à forker le dépôt et à créer une Pull Request (PR) !
